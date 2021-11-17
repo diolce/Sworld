@@ -27,7 +27,6 @@
 		517C89BD27419927003CC67F /* DetailMovieViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 517C89BB27419926003CC67F /* DetailMovieViewController.xib */; };
 		517C89C327419BCC003CC67F /* DetailMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517C89C227419BCC003CC67F /* DetailMovie.swift */; };
 		517C89C72741AD90003CC67F /* DetailMovieRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517C89C62741AD90003CC67F /* DetailMovieRequest.swift */; };
-		517C89CD2742D312003CC67F /* SearchByTextMovieRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517C89CC2742D312003CC67F /* SearchByTextMovieRequest.swift */; };
 		517C89D127430154003CC67F /* DetailMovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517C89D027430154003CC67F /* DetailMovieViewModel.swift */; };
 		517C89D6274429EC003CC67F /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517C89D5274429EC003CC67F /* RealmService.swift */; };
 		517C89DC27442C4F003CC67F /* RepositoryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517C89DB27442C4F003CC67F /* RepositoryData.swift */; };
@@ -112,7 +111,6 @@
 		517C89BB27419926003CC67F /* DetailMovieViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailMovieViewController.xib; sourceTree = "<group>"; };
 		517C89C227419BCC003CC67F /* DetailMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovie.swift; sourceTree = "<group>"; };
 		517C89C62741AD90003CC67F /* DetailMovieRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieRequest.swift; sourceTree = "<group>"; };
-		517C89CC2742D312003CC67F /* SearchByTextMovieRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchByTextMovieRequest.swift; sourceTree = "<group>"; };
 		517C89D027430154003CC67F /* DetailMovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMovieViewModel.swift; sourceTree = "<group>"; };
 		517C89D5274429EC003CC67F /* RealmService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
 		517C89DB27442C4F003CC67F /* RepositoryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryData.swift; sourceTree = "<group>"; };
@@ -350,7 +348,6 @@
 			children = (
 				51C0A556273F208D009D17EB /* ListMoviesRequest.swift */,
 				517C89C62741AD90003CC67F /* DetailMovieRequest.swift */,
-				517C89CC2742D312003CC67F /* SearchByTextMovieRequest.swift */,
 			);
 			path = RequestDTO;
 			sourceTree = "<group>";
@@ -636,7 +633,6 @@
 				510FBAF7273EB761000A1F70 /* ListMoviesViewController.swift in Sources */,
 				51C0A59B274117F2009D17EB /* ImageCaching.swift in Sources */,
 				517C89EF27446844003CC67F /* extension+UICollectionViewCell.swift in Sources */,
-				517C89CD2742D312003CC67F /* SearchByTextMovieRequest.swift in Sources */,
 				51C0A54C273F187F009D17EB /* Datas.swift in Sources */,
 				510FBAF0273EB69F000A1F70 /* MainCoordinator.swift in Sources */,
 				517C89BC27419926003CC67F /* DetailMovieViewController.swift in Sources */,

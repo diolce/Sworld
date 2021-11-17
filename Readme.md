@@ -10,3 +10,6 @@ Aplicacion de prueba que obtiene sus datos de la api themoviedb, se permite list
 Se sigue la arquitectura MVVM y usando programacion reactiva con RxSwift y RxCocoa.
 Se sigue el patron coordinator para definir el flujo de pantallas.
 Para la obtencion de los datos tenemos el patron repositorio 
+
+# Test
+class SWorldTests es la que implementa test de la api
